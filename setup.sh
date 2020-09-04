@@ -33,6 +33,9 @@ npm install -g firebase-tools
 echo "Logging into Firebase"
 firebase login --no-localhost
 
+echo "Installing Angular..."
+npm install -g @angular/cli
+
 # For later: Flutter
 # https://flutter.dev/docs/get-started/install/chromeos
 
